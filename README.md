@@ -19,12 +19,12 @@
 ### 项目框架
 以下为本项目的整体框架：
 
-/PersonalWebsiteTemplate <br>
-    /dict
-    /pages
-    --index.html
-    --main.css
-    --README.md
+/PersonalWebsiteTemplate
+- /dict
+- /pages
+- --index.html
+- --main.css
+- --README.md 
 
 
 一级路径下的index.html为网站主页，自定义内容在该文件中进行修改。
@@ -32,28 +32,19 @@
 一级路径下的main.css为网站主页的样式文件，不熟悉CSS的同学建议只关注如何替换图片。
 
 /PersonalWebsiteTemplate/dict
-
-    /images
+- /images
 
 一级路径下的/dict用于存放图片等多媒体文件
 
 /pages
-
-    /ds_page
-
-        --index.html
-
-        --ds_index.css
-
-        --index.js
-
-    /game_page
-
-        --index.html
-
-        --game_index.css
-
-        --index.js
+- /ds_page
+    - --index.html
+    - --ds_index.css
+    - --index.js
+- /game_page
+    - --index.html
+    - --game_index.css
+    - --index.js
 
 
 一级路径下的/pages用于存放从主页跳转的二级页面

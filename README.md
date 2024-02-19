@@ -1,9 +1,10 @@
 # PersonalWebsiteTemplate - Xiangyang
 哈咯，欢迎来到极简风个人网页搭建教程~
+
 这里是作者，向阳。
 
 ### 使用该模板需要的基本知识
-该模板的整体框架非常简单，并已经完全搭建好，因此对新手友好。
+该模板的整体框架非常简单，对新手友好。
 
 如果用户从未接触过编程，请仔细阅读以下教程，或者在小红书查看教学视频。
 
@@ -18,16 +19,11 @@
 ### 项目框架
 以下为本项目的整体框架：
 
-/PersonalWebsiteTemplate
-
+/PersonalWebsiteTemplate <br>
     /dict
-
     /pages
-
     --index.html
-
     --main.css
-
     --README.md
 
 

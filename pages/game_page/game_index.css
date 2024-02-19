@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../../dict/images/gm_cover.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* flex-direction: column; */
+  }
+
+  .left_container {
+    width: 200px;
+    height: 250px;
+    background-color: rgba(51, 51, 51, 0.8); /* Background color with 80% opacity */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px; /* Adding border-radius for rounded corners */
+    /* margin-left: 20px; */
+    margin-right:50px;
+    margin-left: 20px;
+}
+
+.btn {
+    padding: 20px;
+    margin: 5px;
+    color: #fff;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Adding a smooth transition effect on hover */
+}
+
+/* Hover effect on buttons */
+.btn:hover {
+    background-color: #555; /* Change the background color on hover */
+}
+
+.right_container{
+    position: relative;
+    width: 70%;
+    height: 750px;
+    background-color: rgba(51, 51, 51, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px 20px 50px 20px;
+}
+
+.right_present_professional,
+.right_present_research,
+.right_present_inschool {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+    padding: 20px; /* Add padding for spacing */
+    display: none;
+    box-sizing: border-box; /* Include padding in the total width */
+    max-height: 800px;
+    overflow-y: auto; 
+}
+
+.right_present_professional.active,
+.right_present_research.active,
+.right_present_inschool.active {
+    display: block;
+}
+
+.card {
+    color: #fff;
+}
+
+.card h1{
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+
+.card h2{
+    font-size: 20px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.card p{
+    font-size: 18px;
+    font-weight: 200;
+    margin-bottom: 25px;
+}
+
+.return {
+    position: relative;
+    display: flex;
+    margin: 850px 0 0 0;
+}
+
+a:link {
+    color: #fff;
+}
+
+a:visited{
+    color: #fff;
+}
+
+.mall_video{
+    position: relative;
+    margin-left: 200px;
+    margin-right: 200px;
+}

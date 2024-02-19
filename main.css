@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('./dict/images/cover.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.text-intro {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: 20px;
+  margin-right: 20px;
+  
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.text-intro .intro h1{
+  text-align: justify;
+  font-size: 40px;
+  color: #fff;
+  font-weight: 300;
+  /* margin: 20px 20px 0 20px; */
+}
+
+.text-intro .intro h2{
+  text-align: justify;
+  font-size: 28px;
+  color: #fff;
+  font-weight: 200;
+  margin-bottom: 30px;
+  /* margin: 20px 20px 0 20px; */
+}
+
+.text-intro .author h3{
+  text-align: justify;
+  font-size: 20px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 5px;
+  /* margin: 20px 20px 0 20px; */
+}
+
+.text-intro .author p{
+  text-align: justify;
+  font-size: 15px;
+  color: #fff;
+  font-weight: 100;
+  margin-bottom: 5px;
+  /* margin: 20px 20px 0 20px; */
+}
+
+.container{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+  /* margin-top: 100px; */
+}
+
+.container .card{
+  position: relative;
+  width: 280px;
+  height: 400px;
+  background-color: rgba(255, 255,255,0.1);
+  margin: 30px;
+  border-radius: 15px;
+  box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: 1px solid rgba(255, 255, 255,0.5);
+  border-left: 1px solid rgba(255, 255, 255,0.5);
+  backdrop-filter: blur(5px);
+}
+
+.container .card .content{
+  padding: 20px;
+  text-align: center;
+}
+
+/* .container .card .content .hov{
+  transform: translateY(100px);
+  opacity: 0;
+  transition: 0.5s;
+} */
+
+/* .container .card:hover .content .hov{
+  transform: translateY(0);
+  opacity: 1;
+} */
+
+.container .card .content h3{
+  font-size: 40px;
+  color: #fff;
+  margin-top: -20px;
+}
+
+.container .card .content p{
+  text-align: justify;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 300;
+  margin: 20px 20px 0 20px;
+}  
+
+.container .card .content a{
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  margin-top: 15px;
+  background-color: #fff;
+  color: #000;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
